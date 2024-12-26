@@ -1,0 +1,35 @@
+.footer {
+    background-color: #3A3A3A;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 64px 0 86px 0;
+}
+
+.footer__columns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__columns h6 {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+
+.footer__columns p {
+    max-width: 252px;
+    color: #BCBBBB;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer__columns a {
+    color: #BCBBBB;
+}
