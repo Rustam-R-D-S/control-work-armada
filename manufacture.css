@@ -1,0 +1,52 @@
+.manufacture__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 32px;
+    margin-top: 60px;
+}
+
+.manufacture__wrapper div {
+    min-height: 326px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.manufacture__card-1 {
+    background-image: url("./images/portfolio-7.png");
+}
+
+.manufacture__card-2 {
+    background-image: url("./images/portfolio-3.png");
+}
+
+.manufacture__card-3 {
+    background-image: url("./images/portfolio-88.png");
+}
+
+.equipment__content p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    margin-top: 44px;
+}
+
+.equipment__banner {
+    background-image: url("images/our-history-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1168/346;
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.equipment__banner p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+}
