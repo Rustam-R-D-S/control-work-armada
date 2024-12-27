@@ -1,0 +1,24 @@
+.advantajes__title {
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.advantajes__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 88px;
+}
+
+.advantajes__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advantajes__card span {
+    font-size: 20px;
+    color: #000000;
+    margin-top: 16px;
+    text-align: center;
+}
